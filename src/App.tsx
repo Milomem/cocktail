@@ -6,6 +6,7 @@ import { Cocktails } from "./components/cocktail";
 import { About } from "./components/about";
 import { Art } from "./components/art";
 import { Menu } from "./components/menu";
+import { Contact } from "./components/contact";
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
@@ -18,6 +19,7 @@ export function App() {
       <About />
       <Art />
       <Menu />
+      <Contact />
     </main>
   );
 }
